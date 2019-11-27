@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Nov 26 15:00:24 2019
-
-@author: manmeet sethi
-"""
 import datetime
 import pandas as pd
 import re
