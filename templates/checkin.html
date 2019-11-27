@@ -1,0 +1,48 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+
+
+<form method="POST" >
+    <div class="jumbotron">
+        <h2><b>Visitor Details</b></h2>
+        <div class="form-group">
+            <label for="visitorName">Name</label>
+            <input type="text" name="visitorName" class="form-control" id="visitorName" placeholder="Name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="visitorEmail">Email</label>
+            <input type="email" name="visitorEmail" class="form-control" id="visitorEmail" placeholder="Email ID" required>
+        </div>
+
+        <div class="form-group">
+            <label for="visitorPhone">Phone No.</label>
+            <input type="tel" name="visitorPhone" class="form-control" id="visitorPhone" placeholder="Phone No." required>
+        </div>
+    </div>
+
+
+    <div class="jumbotron">
+        <h2><b>Host Details</b></h2>
+        <div class="form-group">
+            <label for="hostName">Name</label>
+            <input type="text" name="hostName" class="form-control" id="hostName" placeholder="Name" required>
+        </div>
+
+
+        <div class="form-group">
+            <label for="hostAddress">Address</label>
+            <input type="text" name="hostAddress" class="form-control" id="hostAddress" placeholder="Address" required>
+        </div>
+
+    </div>
+    <div class="form-actions">
+        <p><input type="submit" class="w3-button btn btn-light btn-sl w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off" value="Submit"></p>
+    </div>
+</form>
+
+<br><br>
+
+{% endblock %}

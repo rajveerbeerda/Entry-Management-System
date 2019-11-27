@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+
+
+<form method="POST" >
+    <div class="jumbotron">
+        <h2>Select your Name and Phone No. to checkout</h2>
+        <div class="radio">
+            {% for name, phone in visitors_list %}
+                <label><input type="radio" name="optradio" value = "{{ name }},{{ phone }}" checked>{{ name.upper() }}, {{ phone }}</label><br>
+            {% endfor %}
+        </div>
+
+    </div>
+    <div class="form-actions">
+        <p><input type="submit" class="w3-button btn btn-light btn-sl w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off" value="Submit"></p>
+    </div>
+</form>
+
+<br><br>
+
+{% endblock %}

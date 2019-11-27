@@ -1,0 +1,12 @@
+Dear ${VISITOR_NAME}, 
+
+You have been successfully checked-out,
+Name: ${VISITOR_NAME}
+Email: ${EMAIL}
+Phone: ${PHONE}
+Host: ${HOST}
+Address: ${ADDRESS} 
+Check-in Time: ${INTIME}
+Check-out Time: ${OUTTIME}
+
+Thanks for your visit to Innovaccer.
