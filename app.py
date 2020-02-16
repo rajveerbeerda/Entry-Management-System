@@ -8,7 +8,7 @@ from pyfile import sendTexts, checkoutTexts
 from checkout_fn import checkOut
 
 app = Flask(__name__)
-app.secret_key = "abc"
+app.secret_key = "def"
 
 
 @app.route('/')
